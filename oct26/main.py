@@ -15,8 +15,8 @@ def main():
 
     delivery = json_data["delivery"]
     if(delivery == "N/A"):
-            print("No delivery found. Please check the input.")
-            exit(1)
+        print("No delivery found. Please check the input.")
+        exit(1)
 
     print("\nNext delivery to postal code", json_data["postalCode"],  "in",  json_data["city"], "will be", json_data["delivery"], "\n" ) 
 
